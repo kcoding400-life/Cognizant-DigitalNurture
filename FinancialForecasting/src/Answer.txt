@@ -1,0 +1,13 @@
+Step 1: Understand Recursive Algorithms
+Recursion means a method calls itself until a base condition is met.
+It’s useful for problems that can be broken down into smaller subproblems.
+Example: predicting future values where each year depends on the previous year’s growth.
+
+Step 4: Analysis
+Time Complexity:
+Recursive forecast runs once per year → 𝑂(𝑛), where 𝑛 = number of years.
+
+Optimization:
+Recursion can be replaced with a direct formula:
+Future Value = Current Value×(1+Growth Rate)^ Years
+This avoids repeated recursive calls and is more efficient.
